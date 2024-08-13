@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  overflow-y: auto; /* 确保有垂直滚动条 */
+}
+
+.videoBox {
+  width: 100vw;
+  min-height: 100vh; /* 确保至少占满整个视口 */
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, transparent, #0B0121 80%), url('../../../assets/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.videoContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+}

@@ -1,0 +1,12 @@
+export const TITLE = "Safeguard LLM <br />in Depth";
+// export const SUBTITLE = "Red team your AI applications, train safe models & agents, and deploy <br />the most powerful guardrails with ease。";
+export const SECONDE_TITLE = "The Importance of AI Safety";
+// export const SECONDE_TITLE = "Why it Matters";
+export const SECONDE_BODY = "Unprotected AI systems can present considerable threats to businesses, ranging from security breaches to the erosion of brand reputation. Our objective is to facilitate the development of AI that is safe, secure, and reliable, thereby enhancing your competitive advantage and fostering customer confidence. We conduct a thorough <strong>pre-deployment “X-Ray”</strong> of your AI systems to ensure they adhere to safety and regulatory standards and are tailored to your unique business objectives. Moreover, we offer post-deployment guards, such that your AI services will be shielded to eliminate unregulatory or harmful outputs to your customers, allowing you to fully leverage the capabilities of AI while mitigating potential risks. ";
+// export const SECONDE_BODY = "AI without robust safety measures poses significant risks to different businesses – from system vulnerabilities to brand reputation damage. Our mission is to ensure your safe, secure, and trustworthy AI development for your competitive edge and customer trust. By vetting your AI systems pre-deployment, we ensure they not only meet safety and compliance standards but also align with your specific business goals. Our comprehensive platform assesses and safeguards your AI investments, enabling you to harness AI’s full potential while minimizing risks. With us, you can confidently lead in your industry, knowing your AI is secure, compliant, and delivering optimal value to your customers.";
+// export const SECONDE_BODY = "AI without robust safety measures poses significant risks<br />to different businesses – " +
+//     "from system vulnerabilities to brand reputation damage..." +
+//     "from system vulnerabilities to brand reputation damage..." +
+//     "from system vulnerabilities to brand reputation damage..." +
+//     "from system vulnerabilities to brand reputation damage..." +
+//     "from system vulnerabilities to brand reputation damage...";
