@@ -50,7 +50,6 @@ const PageList = ({ items = [], title, basePath, buttonText }) => {
               justifyContent: "space-between",
               alignItems: "center",
               padding: 2,
-              textAlign: "center",
             }}
           >
             <Button
@@ -60,6 +59,9 @@ const PageList = ({ items = [], title, basePath, buttonText }) => {
                 marginRight: 2,
                 borderColor: "white",
                 color: "white",
+                minWidth: "100px", // 设置最小宽度
+                height: "40px", // 固定高度
+                flexShrink: 0, // 防止按钮缩小
                 "&:hover": {
                   backgroundColor: "white",
                   color: "#0B0121",
@@ -71,7 +73,13 @@ const PageList = ({ items = [], title, basePath, buttonText }) => {
             </Button>
             <Typography
               variant="body1"
-              sx={{ flexGrow: 1, textAlign: "center" }}
+              sx={{
+                flexGrow: 1,
+                textAlign: "center",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                // whiteSpace: "nowrap",
+              }}
             >
               {item.title}
             </Typography>

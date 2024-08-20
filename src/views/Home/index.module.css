@@ -63,6 +63,7 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+
 .colorBox {
   width: 100vw;
   height: 100vh;
@@ -75,12 +76,12 @@ body {
 .colorBoxContainer {
   background-image: radial-gradient(at bottom center, #0B0121 43%, #20267754 100%);
   border-radius: 8px;
-  padding: 60px 80px;
-  text-align: center;
+  padding: 60px 80px; /* 增加内边距 */
+  text-align: -webkit-center; /* 居中 */
   color: white;
-  max-width: 900px; /* Increase the max-width */
-  width: 80%; /* Increase the width */
-  height: auto; /* Let the height adjust automatically */
+  max-width:750px;
+  width: 80%;
+  height: auto;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -91,13 +92,17 @@ body {
 
 .logo {
   width: 100px;
-  margin-bottom: 20px; /* Adjust margin for spacing */
-  margin-top: -20px; /* Move logo closer to the top */
+  margin-bottom: 10px; /* 减少底部间距 */
+  margin-top: 0; /* 移除顶部 margin */
+}
+
+h1 {
+  margin-bottom: 20px; /* 增加标题和正文之间的间距 */
 }
 
 .bodyText {
-  line-height: 1.5;
-  max-width: 800px;
-  text-align: justify;
-  letter-spacing: -1;
+  line-height: 1.5; /* 增加行高以提升可读性 */
+  max-width: 800px; /* 限制正文宽度 */
+  text-align: justify; /* 两边对齐 */
+  letter-spacing: -1; /* 减少字母间距 */
 }
